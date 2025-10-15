@@ -5,17 +5,26 @@ This project predicts the hourly air temperature at RDU airport for a specific t
 Data Websites
 [https://www.kaggle.com/datasets/kzmontage/e-commerce-website-logs](https://mesonet.agron.iastate.edu/request/download.phtml?network=NC_ASOS)
 
-Prerequisites
+Prerequisites:
+
 Python 3.11+, Git
 
-Installation
+Installation:
+
 Clone the repo
+
 git clone https://github.com/Michaelsaju1/AIPI520_Project_1
+
 cd AIPI520_Project_1
+
 Create and activate a virtual environment
+
 python3 -m venv .venv    # Create the virtual environment
+
 source .venv/bin/activate   # macOS/Linux
+
 .\.venv\Scripts\Activate.ps1  # Windows PowerShell
 
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.

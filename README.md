@@ -1,13 +1,21 @@
-# AIPI520_Project_1
-Predict the hourly temperature measured at RDU airport for the period 12am September 17 – 11pm September 30
+# AIPI 520 Project 1
+This project predicts the hourly air temperature at RDU airport for a specific two-week period: from 00:00 on September 17, 2025 to 23:00 on September 30, 2025.
 
-Rules
-1. Any data (other than ground truth)
-2. Any inputs/features
-3. Any model(s)
-4. MUST include 1 linear regression model + 1 other model
+## Getting Started
+Data Websites
+[https://www.kaggle.com/datasets/kzmontage/e-commerce-website-logs](https://mesonet.agron.iastate.edu/request/download.phtml?network=NC_ASOS)
 
-Deliverables
-1. Presentation: Inputs, data pipeline, features, models, eval approach, performance
-2. Code repo
-3. Writeup (2-4 pages): your approach to the problem, how you applied what we learned in class
+Prerequisites
+Python 3.11+, Git
+
+Installation
+Clone the repo
+git clone https://github.com/Michaelsaju1/AIPI520_Project_1
+cd AIPI520_Project_1
+Create and activate a virtual environment
+python3 -m venv .venv    # Create the virtual environment
+source .venv/bin/activate   # macOS/Linux
+.\.venv\Scripts\Activate.ps1  # Windows PowerShell
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
